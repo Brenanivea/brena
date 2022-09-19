@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textoeu {
+    width: 400px;
+    height: 500px;
+}
+
+h1 {
+    color: white;
+}
+
+.fundo {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, rgb(244, 191, 191), rgb(235, 199, 232), rgb(255, 217, 192));
+    background-size: 500% 100%;
+    animation: fundo 5s infinite alternate;
+}
+
+.foto {
+    margin-left: 70px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+@keyframes fundo {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+#labelmensage {
+    margin-left: 40px;
+    width: 300px;
+    height: 200px;
+}
+
+#fornome {
+    margin-left: 40px;
+}
+
+#caixa1 {
+    margin-left: 40px;
+}
+
+#formensagem {
+    margin-left: 40px;
+}
+
+#botao {
+    margin-left: 155px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 80px;
+    height: 30px;
+}
+
+p {
+    font-weight: 500;
+    font-family: cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+#sobremim {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#hobbies {
+    text-align: center;
+
+}
+
+#contato {
+    text-align: center;
+
+}
+
+#secao {
+    font-size: medium;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.contato {
+    height: 100px;
+}
